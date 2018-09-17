@@ -5,6 +5,6 @@
 !.vscode/extensions.json
 desktop.ini
 composer.*
-composer.json
+!composer.json
 /vendor/
 /tests/_report/
