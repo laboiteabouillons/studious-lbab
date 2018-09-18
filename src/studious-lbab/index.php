@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 /**
- * The main template file
+ * The main template file. It is required in all themes.
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -10,7 +10,7 @@ declare(strict_types=1);
  *
  * @link https://developer.wordpress.org/themes/template-files-section/post-template-files/#index-php
  *
- * @package La boîte à bouillons
+ * @package studious-lbab
  */
 
 echo basename(__FILE__), PHP_EOL;

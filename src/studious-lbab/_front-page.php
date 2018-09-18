@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 /**
+ * The front page template is always used as the site front page if it exists,
+ * regardless of what settings on Admin > Settings > Reading.
+ *
  * The template file used to render the site front-page:
  *  - the latest blog posts when “your latest posts” is set in the front page
  *    displays section.
@@ -11,8 +14,7 @@ declare(strict_types=1);
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package La boîte à bouillons
- * @version 1.0
+ * @package studious-lbab
  */
 
 echo basename(__FILE__), PHP_EOL;

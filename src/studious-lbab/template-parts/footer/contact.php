@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 /**
- * The template for displaying the contact inside the footer.
+ * The template partial for displaying the contact inside the footer.
  *
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package La boîte à bouillons
+ * @package laboiteabouillons\template-partial\footer
  */
 
 // The theme implements Custom Logo feature.
