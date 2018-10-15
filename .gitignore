@@ -7,4 +7,5 @@ desktop.ini
 composer.*
 !composer.json
 /vendor/
+/wpcs/
 /tests/_report/

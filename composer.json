@@ -1,0 +1,33 @@
+{
+    "name": "laboiteabouillons/studious-lbab",
+    "type": "library",
+    "description": "WordPress theme for La boîte à bouillons",
+    "keywords": ["la-boite-a-bouillons","wordpress", "theme"],
+    "homepage":"https://github.com/laboiteabouillons/studious-lbab",
+    "readme":"README.md",
+    "time":"2018-09-22",
+    "license": "GNU GPL v3",
+    "authors": [
+        {
+            "name": "Olivier Jullien",
+            "homepage": "https://github.com/ojullien"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "squizlabs/php_codesniffer": "^3",
+        "wp-coding-standards/wpcs": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
+        "phpcompatibility/php-compatibility": "^9",
+        "phpunit/phpunit": "^7"
+    },
+    "prefer-stable" : true,
+    "scripts": {
+        "testmycode": ["vendor/bin/phpunit"],
+        "sniffmycode": ["vendor/bin/phpcs --standard=./phpcs.xml.dist"],
+        "messmycode": ["vendor/bin/phpmd src text ./phpmd.xml"]
+    }
+}
