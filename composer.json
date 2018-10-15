@@ -27,7 +27,8 @@
     "prefer-stable" : true,
     "scripts": {
         "testmycode": ["vendor/bin/phpunit"],
-        "sniffmycode": ["vendor/bin/phpcs --standard=./phpcs.xml.dist"],
+        "printcodereport": ["vendor/bin/phpcs --report=code --standard=./phpcs.xml.dist"],
+        "printsourcereport": ["vendor/bin/phpcs --report=source --standard=./phpcs.xml.dist"],
         "messmycode": ["vendor/bin/phpmd src text ./phpmd.xml"]
     }
 }
