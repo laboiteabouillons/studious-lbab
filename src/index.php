@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 /**
  * The main template file. It is required in all themes.
  *
@@ -13,4 +12,12 @@ declare(strict_types=1);
  * @package studious-lbab
  */
 
-echo basename(__FILE__), PHP_EOL;
+declare(strict_types=1);
+get_header();
+?>
+<main>
+</main>
+<?php
+get_sidebar();
+get_footer();
+echo esc_html( basename( __FILE__ ) ), PHP_EOL;

@@ -14,6 +14,9 @@
 declare(strict_types=1);
 ?>
 <footer>
+<?php
+// get_sidebar( 'sidebar-name' );
+?>
 </footer>
 <?php wp_footer(); ?>
 </body>
